@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS
 from models import db, User, Role
-from views import books_bp
+from routes import books_bp
 from flask_security import Security, SQLAlchemyUserDatastore, UserMixin, RoleMixin
 
 app = Flask(__name__)

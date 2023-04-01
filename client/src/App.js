@@ -28,7 +28,7 @@ function App() {
     <Router>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link to="/" className="navbar-brand">React Flask CRUD</Link>
+          <Link to="/" className="navbar-brand">Public Library Registry</Link>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               
